@@ -1,8 +1,14 @@
-## Dockfix Labs
+﻿<p align="center">
+  <img src="assets/logo.png" width="120" alt="Dockfix Labs" />
+</p>
 
-Building open-source security tools for the AI agent era.
+<h1 align="center">Dockfix Labs</h1>
 
-### Projects
+<p align="center">Building open-source security tools for the AI agent era</p>
+
+---
+
+## Projects
 
 | Project | Description |
 |---------|-------------|
@@ -12,18 +18,18 @@ Building open-source security tools for the AI agent era.
 | [AgentGuard VS Code](https://github.com/dockfixlabs/agentguard-vscode) | VS Code extension — inline security diagnostics for agent code |
 | [AgentGuard Benchmark](https://github.com/dockfixlabs/agentguard-benchmark) | Benchmark suite with 27+ vulnerable agent code samples |
 
-### Focus
+## Focus
 
 - AI Agent Security (OWASP ASI Top 10)
 - MCP Protocol Security
 - Developer Tooling
 
-### Packages
+## Packages
 
-- [`dfx-agentguard`](https://pypi.org/project/dfx-agentguard/) on PyPI
-- [`dfx-mcp-scanner`](https://pypi.org/project/dfx-mcp-scanner/) on PyPI
+- [dfx-agentguard](https://pypi.org/project/dfx-agentguard/) on PyPI
+- [dfx-mcp-scanner](https://pypi.org/project/dfx-mcp-scanner/) on PyPI
 
-### Contact
+## Contact
 
 - [GitHub Discussions](https://github.com/dockfixlabs/agentguard/discussions)
 
