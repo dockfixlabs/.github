@@ -1,4 +1,4 @@
-﻿<p align="center">
+<p align="center">
   <img src="assets/logo.png" width="120" alt="Dockfix Labs" />
 </p>
 
@@ -10,27 +10,39 @@
 
 ## Projects
 
-| Project | Description |
-|---------|-------------|
-| [AgentGuard](https://github.com/dockfixlabs/agentguard) | Autonomous security scanner for AI agents - OWASP ASI Top 10 detection |
-| [MCP Scanner](https://github.com/dockfixlabs/mcp-scanner) | Security scanner for MCP (Model Context Protocol) servers |
-| [AgentGuard App](https://github.com/dockfixlabs/agentguard-app) | GitHub App for automated PR security reviews |
-| [AgentGuard VS Code](https://github.com/dockfixlabs/agentguard-vscode) | VS Code extension - inline security diagnostics for agent code |
-| [AgentGuard Benchmark](https://github.com/dockfixlabs/agentguard-benchmark) | Benchmark suite with 27+ vulnerable agent code samples |
+| Project | Description | Status |
+|---------|-------------|--------|
+| [AgentGuard](https://github.com/dockfixlabs/agentguard) | Autonomous security scanner for AI agents - OWASP ASI Top 10 + 6 novel vectors | v0.6.8 |
+| [MCP Scanner](https://github.com/dockfixlabs/mcp-scanner) | Security scanner for MCP (Model Context Protocol) servers | v0.3.0 |
+| [AgentGuard App](https://github.com/dockfixlabs/agentguard-app) | GitHub App for automated PR security reviews | v0.1.0 |
+| [AgentGuard VS Code](https://github.com/dockfixlabs/agentguard-vscode) | VS Code extension - inline security diagnostics for agent code | v0.1.0 |
+| [AgentGuard Benchmark](https://github.com/dockfixlabs/agentguard-benchmark) | 50 benchmark samples - 100% detection, 0% false positives | Dashboard |
+| [AgentGuard Demo](https://github.com/dockfixlabs/agentguard-demo) | Live demo with GitHub Code Scanning integration | Active |
 
-## Focus
+## Key Metrics
 
-- AI Agent Security (OWASP ASI Top 10)
-- MCP Protocol Security
-- Developer Tooling
+- **19** detection rules (10 OWASP ASI + 6 novel vectors + 3 standard)
+- **102** automated tests
+- **50** benchmark samples (100% detection rate)
+- **6** major AI agent frameworks audited (3,262 findings)
+- **GitHub Action** available on [Marketplace](https://github.com/marketplace/actions/agentguard)
 
 ## Packages
 
 - [dfx-agentguard](https://pypi.org/project/dfx-agentguard/) on PyPI
 - [dfx-mcp-scanner](https://pypi.org/project/dfx-mcp-scanner/) on PyPI
 
-## Contact
+## Focus
 
+- AI Agent Security (OWASP ASI Top 10)
+- MCP Protocol Security
+- Developer Tooling
+- Novel Attack Vectors (Memory Poison, Tool Trust, Chain Amplify, Agent Collusion, Prompt Template Injection, Steganographic Injection)
+
+## Resources
+
+- [Sovereign Audit Report](https://github.com/dockfixlabs/agentguard/blob/main/AUDIT_REPORT_2026.md)
+- [Benchmark Dashboard](https://dockfixlabs.github.io/agentguard-benchmark/)
 - [GitHub Discussions](https://github.com/dockfixlabs/agentguard/discussions)
 
 ---
